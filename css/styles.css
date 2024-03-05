@@ -1,0 +1,129 @@
+@keyframes toBottom {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes currentToBottom {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
+
+@keyframes toTop {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes toRight {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes currentToLeft {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+}
+
+.toTop {
+  animation: toTop 0.5s ease;
+}
+
+.toRight {
+  animation: toRight 0.5s ease;
+}
+
+.toBottom {
+  animation: toBottom 0.5s ease;
+}
+
+.currentToBottom {
+  animation: currentToBottom 0.5s ease;
+}
+
+.currentToLeft {
+  animation: currentToLeft 0.5s ease;
+}
+
+.arrow-right {
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 15px solid #fdeeb5;
+}
+
+.arrow-right_box-news {
+  width: 0;
+  height: 0;
+  border-top: 36px solid transparent;
+  border-bottom: 0 solid transparent;
+  border-left: 30px solid #f1f5f9;
+}
+
+.bg-grand-topics {
+  box-shadow: inset 0 0 0 70px rgb(255 255 255 / 70%);
+}
+
+.box-widget-title {
+  position: relative;
+  text-align: center;
+  border: 0;
+  margin: 0;
+  box-shadow: inset 0 13px 0 0 #fff;
+}
+
+.box-widget-title a::after {
+  position: absolute;
+  bottom: -5px;
+  left: 10px;
+  right: 10px;
+  height: 2px;
+  background: #00698b;
+  content: "";
+}
+
+.box-widget-title::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #00698b;
+}
+
+.fixedElement {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  animation: toBottom 0.5s ease;
+}

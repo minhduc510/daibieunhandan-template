@@ -1,0 +1,2777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đại biểu Nhân dân</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                backgroundImage: {
+                    'grand-topics': "url('https://img.daibieunhandan.vn/Content/images/quochoi1.png')",
+                    'trong-dong': "url('https://img.daibieunhandan.vn/Content/images/trongdong.jpg')",
+                },
+                listStyleType: {
+                    circle: 'circle',
+                    square: 'square',
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="border-b hidden lg:block bg-opacity-60 bg-slate-100">
+            <div class="py-2 flex max-w-[1250px] mx-auto justify-between">
+                <div class="text-sm text-sky-800 font-medium">
+                    <a href="/" class="hover:text-red-800">Quốc hội</a>
+                    <span>-</span>
+                    <a href="/" class="hover:text-red-800">Đại biểu</a>
+                    <span>-</span>
+                    <a href="/" class="hover:text-red-800">Cử tri</a>
+                    <span>-</span>
+                    <a href="/" class="hover:text-red-800">Hội đồng nhân dân</a>
+                    <span>-</span>
+                    <a href="/" class="hover:text-red-800">Nghị viện thế giới</a>
+                </div>
+                <div class="text-sm text-sky-800 font-medium">
+                    <a href="/" class="hover:text-red-800">Báo In</a>
+                    <span class="px-1">-</span>
+                    <a href="/" class="hover:text-red-800">Video</a>
+                    <span class="px-1">-</span>
+                    <a href="/" class="hover:text-red-800 border px-2 rounded-lg">
+                        <i class="fa-solid fa-earth-americas"></i>
+                        <span>International</span>
+                    </a>
+                    <span class="px-1">-</span>
+                    <a href="/" class="hover:text-red-800">
+                        <i class="fa-solid fa-magnifying-glass text-xs"></i>
+                        <span>Tìm kiếm</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-[1250px] flex items-center justify-between mx-auto p-4">
+            <div class="w-[250px] sm:w-[400px] mx-auto">
+                <img src="https://img.daibieunhandan.vn/Content/images/logo.svg" alt="">
+            </div>
+            <div
+                class="menu-icon-mobile border px-2 py-0.5 lg:px-3 lg:py-1.5 text-lg rounded lg:hidden bg-amber-100 border-amber-400 text-sky-800">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- BODY -->
+    <main class="lg:max-w-[1250px] sm:max-w-[640px] mx-auto bg-white">
+        <!-- SECTION HEADER -->
+        <nav class="relative header-nav bg-sky-800 text-white flex items-center h-[40px] z-1">
+            <div class="py-2 px-3 bg-red-500 hidden lg:block h-full">
+                <i class="fa-solid fa-house"></i>
+            </div>
+            <ul class="flex-1 overflow-auto whitespace-nowrap h-full flex items-center">
+                <li class="h-full font-medium hover:bg-red-500 transition group">
+                    <a href="/" class="h-full">
+                        <i class="fa-solid fa-caret-right pr-1 text-red-700 lg:hidden"></i>
+                        <span class="uppercase text-sm leading-[40px] px-2">Chính trị</span>
+                        <ul class="absolute bg-red-500 hidden group-hover:block">
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Sự kiện nổi bật</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Thời sự quốc hội</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Bảo vệ nền tảng tư tưởng đảng</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Theo dòng dự kiện</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="h-full font-medium hover:bg-red-500 transition group">
+                    <a href="/" class="h-full">
+                        <i class="fa-solid fa-caret-right pr-1 text-red-700 lg:hidden"></i>
+                        <span class="uppercase text-sm leading-[40px] px-2">Quốc hội và cử tri</span>
+                        <ul class="absolute bg-red-500 hidden group-hover:block">
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Diễn đàn quốc hội</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Lập pháp</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Chính sách và cuộc sống</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Ý kiến đại biểu</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="h-full font-medium hover:bg-red-500 transition group">
+                    <a href="/" class="h-full">
+                        <i class="fa-solid fa-caret-right pr-1 text-red-700 lg:hidden"></i>
+                        <span class="uppercase text-sm leading-[40px] px-2">Hội đồng nhân dân</span>
+                        <ul class="absolute bg-red-500 hidden group-hover:block">
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Diễn đàn quốc hội</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Lập pháp</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Chính sách và cuộc sống</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Ý kiến đại biểu</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="h-full font-medium hover:bg-red-500 transition group">
+                    <a href="/" class="h-full">
+                        <i class="fa-solid fa-caret-right pr-1 text-red-700 lg:hidden"></i>
+                        <span class="uppercase text-sm leading-[40px] px-2">Phòng chống tham nhũng</span>
+                        <ul class="absolute bg-red-500 hidden group-hover:block">
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Diễn đàn quốc hội</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Lập pháp</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Chính sách và cuộc sống</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Ý kiến đại biểu</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="h-full font-medium hover:bg-red-500 transition group">
+                    <a href="/" class="h-full">
+                        <i class="fa-solid fa-caret-right pr-1 text-red-700 lg:hidden"></i>
+                        <span class="uppercase text-sm leading-[40px] px-2">Xã hội</span>
+                        <ul class="absolute bg-red-500 hidden group-hover:block">
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Diễn đàn quốc hội</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Lập pháp</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Chính sách và cuộc sống</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Ý kiến đại biểu</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="h-full font-medium hover:bg-red-500 transition group">
+                    <a href="/" class="h-full">
+                        <i class="fa-solid fa-caret-right pr-1 text-red-700 lg:hidden"></i>
+                        <span class="uppercase text-sm leading-[40px] px-2">Kinh tế</span>
+                        <ul class="absolute bg-red-500 hidden group-hover:block">
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Diễn đàn quốc hội</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Lập pháp</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Chính sách và cuộc sống</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Ý kiến đại biểu</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="h-full font-medium hover:bg-red-500 transition group">
+                    <a href="/" class="h-full">
+                        <i class="fa-solid fa-caret-right pr-1 text-red-700 lg:hidden"></i>
+                        <span class="uppercase text-sm leading-[40px] px-2">Giáo dục</span>
+                        <ul class="absolute bg-red-500 hidden group-hover:block">
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Diễn đàn quốc hội</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Lập pháp</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Chính sách và cuộc sống</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Ý kiến đại biểu</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="h-full font-medium hover:bg-red-500 transition group">
+                    <a href="/" class="h-full">
+                        <i class="fa-solid fa-caret-right pr-1 text-red-700 lg:hidden"></i>
+                        <span class="uppercase text-sm leading-[40px] px-2">Sức khỏe</span>
+                        <ul class="absolute bg-red-500 hidden group-hover:block">
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Diễn đàn quốc hội</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Lập pháp</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Chính sách và cuộc sống</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Ý kiến đại biểu</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="h-full font-medium hover:bg-red-500 transition group">
+                    <a href="/" class="h-full">
+                        <i class="fa-solid fa-caret-right pr-1 text-red-700 lg:hidden"></i>
+                        <span class="uppercase text-sm leading-[40px] px-2">Pháp luật</span>
+                        <ul class="absolute bg-red-500 hidden group-hover:block">
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Diễn đàn quốc hội</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Lập pháp</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Chính sách và cuộc sống</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Ý kiến đại biểu</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="h-full font-medium hover:bg-red-500 transition group">
+                    <a href="/" class="h-full">
+                        <i class="fa-solid fa-caret-right pr-1 text-red-700 lg:hidden"></i>
+                        <span class="uppercase text-sm leading-[40px] px-2">Địa phương</span>
+                        <ul class="absolute bg-red-500 hidden group-hover:block">
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Diễn đàn quốc hội</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Lập pháp</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Chính sách và cuộc sống</a>
+                            </li>
+                            <li class="p-2 hover:bg-red-700 transition">
+                                <a href="/">Ý kiến đại biểu</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+            </ul>
+            <div class="menu-icon cursor-pointer py-2 px-3 hidden lg:block h-full">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div
+                class="horizon-bar hidden fixed lg:absolute bg-amber-100 top-10 left-0 right-0 border border-red-800 py-3 px-4">
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        <p class="text-black uppercase font-bold">
+                            <a href="/">Chính trị</a>
+                        </p>
+                        <ul class="text-sm list-circle ml-4">
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Thời sự Quốc hội
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <p class="text-black uppercase font-bold">
+                            <a href="/">Chính trị</a>
+                        </p>
+                        <ul class="text-sm list-circle ml-4">
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Thời sự Quốc hội
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <p class="text-black uppercase font-bold">
+                            <a href="/">Chính trị</a>
+                        </p>
+                        <ul class="text-sm list-circle ml-4">
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Thời sự Quốc hội
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <p class="text-black uppercase font-bold">
+                            <a href="/">Chính trị</a>
+                        </p>
+                        <ul class="text-sm list-circle ml-4">
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Thời sự Quốc hội
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-3 mt-4">
+                        <p class="text-black uppercase font-bold">
+                            <a href="/">Chính trị</a>
+                        </p>
+                        <ul class="text-sm list-circle ml-4">
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Thời sự Quốc hội
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-3 mt-4">
+                        <p class="text-black uppercase font-bold">
+                            <a href="/">Chính trị</a>
+                        </p>
+                        <ul class="text-sm list-circle ml-4">
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Thời sự Quốc hội
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-3 mt-4">
+                        <p class="text-black uppercase font-bold">
+                            <a href="/">Chính trị</a>
+                        </p>
+                        <ul class="text-sm list-circle ml-4">
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Thời sự Quốc hội
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-3 mt-4">
+                        <p class="text-black uppercase font-bold">
+                            <a href="/">Chính trị</a>
+                        </p>
+                        <ul class="text-sm list-circle ml-4">
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Thời sự Quốc hội
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-3 mt-4">
+                        <p class="text-black uppercase font-bold">
+                            <a href="/">Chính trị</a>
+                        </p>
+                        <ul class="text-sm list-circle ml-4">
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Thời sự Quốc hội
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-3 mt-4">
+                        <p class="text-black uppercase font-bold">
+                            <a href="/">Chính trị</a>
+                        </p>
+                        <ul class="text-sm list-circle ml-4">
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Thời sự Quốc hội
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-3 mt-4">
+                        <p class="text-black uppercase font-bold">
+                            <a href="/">Chính trị</a>
+                        </p>
+                        <ul class="text-sm list-circle ml-4">
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Thời sự Quốc hội
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                            <li class="text-sky-800 py-0.5 hover:text-red-800 font-medium">
+                                <a href="/">
+                                    Sự kiện nổi bật
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- END SECTION HEADER -->
+
+        <!-- SECTION BODY -->
+        <section class="p-0 lg:!p-4">
+            <section>
+                <div class="flex items-center h-[36px]">
+                    <div class="bg-amber-100 text-red-800 h-full leading-[36px] px-2.5">
+                        <i class="fa-solid fa-poo-storm"></i>
+                        <span class="hidden lg:inline-block">Chủ đề</span>
+                    </div>
+                    <div class="flex-1 flex items-center border border-amber-200 border-l-white overflow-hidden">
+                        <div class="arrow-right"></div>
+                        <div class="list-topic flex gap-3 overflow-auto whitespace-nowrap px-2">
+                            <p class="text-xs">
+                                # <a href="/" class="uppercase text-sky-800 font-medium hover:text-red-800">kỳ họp bất
+                                    thường lần thứ 5,
+                                    quốc
+                                    hội khóa
+                                    xv</a>
+                            </p>
+                            <p class="text-xs">
+                                # <a href="/" class="uppercase text-sky-800 font-medium hover:text-red-800">kỳ họp bất
+                                    thường lần thứ 5,
+                                    quốc
+                                    hội khóa
+                                    xv</a>
+                            </p>
+                            <p class="text-xs">
+                                # <a href="/" class="uppercase text-sky-800 font-medium hover:text-red-800">kỳ họp bất
+                                    thường lần thứ 5,
+                                    quốc
+                                    hội khóa
+                                    xv</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="lg:mt-3 px-3 lg:!px-0">
+                <div class="row">
+                    <div class="col-3 hidden lg:block">
+                        <a href="/">
+                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/6ebf08c94a89e6d7bf98-17095548211-1709555491660.jpg"
+                                alt="">
+                        </a>
+                        <ul>
+                            <li class="font-medium py-2 border-b hover:text-red-800">
+                                <a href="/">
+                                    Ủy ban Văn hóa, Giáo dục làm việc với Báo Nhân dân
+                                </a>
+                            </li>
+                            <li class="font-medium py-2 border-b hover:text-red-800">
+                                <a href="/">
+                                    Cân nhắc được - mất trong lễ hội truyền thống
+                                </a>
+                            </li>
+                            <li class="font-medium py-2 border-b hover:text-red-800">
+                                <a href="/">
+                                    Khó in ấn, phát hành do thiếu quy chuẩn
+                                </a>
+                            </li>
+                            <li class="font-medium py-2 border-b hover:text-red-800">
+                                <a href="/">
+                                    Các tin tức nổi bật về lừa đảo trực tuyến tại Việt Nam trong tuần qua
+                                </a>
+                            </li>
+                            <li class="font-medium py-2 border-b hover:text-red-800">
+                                <a href="/">
+                                    Hà Giang: Lượng khách du lịch trong tháng 2 đạt 305.000 lượt người
+                                </a>
+                            </li>
+                            <li class="font-medium py-2 border-b hover:text-red-800">
+                                <a href="/">
+                                    An Giang: Bãi nhiệm chức vụ Chủ tịch UBND tỉnh đối với ông Nguyễn Thanh Bình
+                                </a>
+                            </li>
+                            <li class="font-medium py-2 border-b hover:text-red-800">
+                                <a href="/">
+                                    Tòa án Tối cao Mỹ sẽ phán quyết về vụ kiện cấm Donald Trump ứng cử
+                                </a>
+                            </li>
+                            <li class="font-medium py-2 border-b hover:text-red-800">
+                                <a href="/">
+                                    Sứ lạ - Vùng thực hành đa phương
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-6 border-r">
+                        <div class="row">
+                            <div class="col-12 col-lg-12">
+                                <div class="pb-3 lg:border-b">
+                                    <a href="/" class="hover:text-red-800">
+                                        <img src="https://img.daibieunhandan.vn/resize/800x800/Files/Images/2024/03/04/DSC_0908-1709524823630.JPG"
+                                            alt="">
+                                        <h3 class="text-2xl font-medium py-2">Chủ tịch Quốc hội Vương Đình Huệ làm việc
+                                            với
+                                            Ban
+                                            Thường vụ Tỉnh ủy Bình Định
+                                        </h3>
+                                    </a>
+                                    <span class="text-xs text-gray-300">11:04 04/03/2024 </span>
+                                    <p>Sáng nay, 4.3, tiếp tục các hoạt động tại tỉnh Bình Định, Ủy viên Bộ Chính trị,
+                                        Chủ
+                                        tịch
+                                        Quốc hội Vương Đình Huệ đã làm việc với Ban Thường vụ Tỉnh ủy Bình Định về tình
+                                        hình
+                                        thực hiện nhiệm vụ năm 2023, nhiệm vụ trọng tâm năm 2024 và các năm tiếp theo.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="pb-3 mt-3">
+                                    <a href="/" class="hover:text-red-800">
+                                        <img src="https://img.daibieunhandan.vn/resize/800x800/Files/Images/2024/03/04/DSC_0908-1709524823630.JPG"
+                                            alt="">
+                                        <h3 class="text-2xl lg:text-base font-medium py-2">Chủ tịch Quốc hội Vương Đình
+                                            Huệ làm việc
+                                            với
+                                            Ban
+                                            Thường vụ Tỉnh ủy Bình Định
+                                        </h3>
+                                    </a>
+                                    <span class="text-xs text-gray-300 block lg:hidden">11:04 04/03/2024 </span>
+                                    <p class="block lg:hidden">Sáng nay, 4.3, tiếp tục các hoạt động tại tỉnh Bình Định,
+                                        Ủy viên Bộ Chính trị, Chủ
+                                        tịch
+                                        Quốc hội Vương Đình Huệ đã làm việc với Ban Thường vụ Tỉnh ủy Bình Định về tình
+                                        hình
+                                        thực hiện nhiệm vụ năm 2023, nhiệm vụ trọng tâm năm 2024 và các năm tiếp theo.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="pb-3 mt-3">
+                                    <a href="/" class="hover:text-red-800">
+                                        <img src="https://img.daibieunhandan.vn/resize/800x800/Files/Images/2024/03/04/DSC_0908-1709524823630.JPG"
+                                            alt="">
+                                        <h3 class="text-2xl lg:text-base font-medium py-2">Chủ tịch Quốc hội Vương Đình
+                                            Huệ làm việc
+                                            với
+                                            Ban
+                                            Thường vụ Tỉnh ủy Bình Định
+                                        </h3>
+                                    </a>
+                                    <span class="text-xs text-gray-300 block lg:hidden">11:04 04/03/2024 </span>
+                                    <p class="block lg:hidden">Sáng nay, 4.3, tiếp tục các hoạt động tại tỉnh Bình Định,
+                                        Ủy viên Bộ Chính trị, Chủ
+                                        tịch
+                                        Quốc hội Vương Đình Huệ đã làm việc với Ban Thường vụ Tỉnh ủy Bình Định về tình
+                                        hình
+                                        thực hiện nhiệm vụ năm 2023, nhiệm vụ trọng tâm năm 2024 và các năm tiếp theo.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 hidden lg:block">
+                        <div class="">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="lg:mt-3 px-3 lg:!px-0">
+                <div class="row">
+                    <div class="col-12 col-lg-9">
+                        <div class="bg-grand-topics bg-no-repeat bg-contain bg-center bg-amber-100 py-4 px-0 lg:!px-5">
+                            <p class="uppercase text-xl text-red-800 font-medium text-center">tâm điểm</p>
+                            <div class="mt-2 pt-2 border-t border-red-800">
+                                <a href="/">
+                                    <img src="https://img.daibieunhandan.vn/Files/Images/2024/03/01/80-nam-quoc-hoi-1709292457849.jpg"
+                                        alt="" class="w-full hidden lg:block">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="block lg:hidden">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2024/03/01/80-nam-quoc-hoi-MB-1709292458224.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-3">
+                            <a href="/">
+                                <img src="https://img.daibieunhandan.vn/Files/Images/2023/10/11/chao-mung-desktop-1697012326022.jpg"
+                                    alt="" class="w-full hidden lg:block">
+                                <img src="https://img.daibieunhandan.vn/Files/Images/2023/10/11/chao-mung-MB-1697012326288.jpg"
+                                    alt="" class="block lg:hidden">
+                            </a>
+                        </div>
+                        <section class="mt-3 pb-4 border-b">
+                            <div class="flex justify-between items-center text-red-800 border-b">
+                                <div class="flex">
+                                    <div class="flex px-3 bg-slate-100">
+                                        <div class="uppercase font-medium py-1.5 text-sm border-b-[3px] border-sky-800">
+                                            chính
+                                            trị</div>
+                                    </div>
+                                    <div class="arrow-right_box-news">
+                                    </div>
+                                </div>
+                                <ul class="hidden lg:block text-sm">
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Sự kiện nổi bật</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Thời sự Quốc hội</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Bảo vệ nền tảng tư tưởng Đảng</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Theo dòng sự kiến</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 col-lg-7">
+                                    <div>
+                                        <a href="/" class="hover:text-red-800">
+                                            <img src="https://img.daibieunhandan.vn/resize/600x600/Files/Images/2024/03/04/CTQH-phat-bieu1-1709534002346.JPG"
+                                                alt="">
+                                            <h4 class="text-[1.1rem] font-medium mt-2">Chủ tịch Quốc hội Vương Đình
+                                                Huệ:
+                                                Nêu cao
+                                                &quot;tinh
+                                                thần, hào khí
+                                                Tây Sơn&quot;, sớm đưa Bình Định thành tỉnh phát triển nhóm dẫn đầu
+                                                vùng Bắc Trung Bộ và duyên hải Trung Bộ</h4>
+                                        </a>
+                                        <p class="mt-2 text-[0.95rem]">Chủ tịch Quốc hội Vương Đình Huệ mong Đảng
+                                            bộ, chính
+                                            quyền
+                                            và
+                                            Nhân dân tỉnh Bình Định tiếp tục nêu cao "tinh thần và hào khí Tây Sơn",
+                                            phát huy truyền thống đoàn kết, chủ động, sáng tạo, sớm hiện thực hóa
+                                            mục tiêu đến năm 2030 trở thành tỉnh phát triển thuộc nhóm dẫn đầu vùng
+                                            Bắc Trung Bộ và duyên hải Trung Bộ, trung tâm lớn của cả nước về phát
+                                            triển kinh tế biển, trọng điểm du lịch quốc gia và quốc tế.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-5 mt-3 lg:!mt-0">
+                                    <div class="flex gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="mt-3 pb-4 border-b">
+                            <div class="flex justify-between items-center text-red-800 border-b">
+                                <div class="flex">
+                                    <div class="flex px-3 bg-slate-100">
+                                        <div class="uppercase font-medium py-1.5 text-sm border-b-[3px] border-sky-800">
+                                            chính
+                                            trị</div>
+                                    </div>
+                                    <div class="arrow-right_box-news">
+                                    </div>
+                                </div>
+                                <ul class="hidden lg:block text-sm">
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Sự kiện nổi bật</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Thời sự Quốc hội</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Bảo vệ nền tảng tư tưởng Đảng</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Theo dòng sự kiến</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 col-lg-7">
+                                    <div>
+                                        <a href="/" class="hover:text-red-800">
+                                            <img src="https://img.daibieunhandan.vn/resize/600x600/Files/Images/2024/03/04/CTQH-phat-bieu1-1709534002346.JPG"
+                                                alt="">
+                                            <h4 class="text-[1.1rem] font-medium mt-2">Chủ tịch Quốc hội Vương Đình
+                                                Huệ:
+                                                Nêu cao
+                                                &quot;tinh
+                                                thần, hào khí
+                                                Tây Sơn&quot;, sớm đưa Bình Định thành tỉnh phát triển nhóm dẫn đầu
+                                                vùng Bắc Trung Bộ và duyên hải Trung Bộ</h4>
+                                        </a>
+                                        <p class="mt-2 text-[0.95rem]">Chủ tịch Quốc hội Vương Đình Huệ mong Đảng
+                                            bộ, chính
+                                            quyền
+                                            và
+                                            Nhân dân tỉnh Bình Định tiếp tục nêu cao "tinh thần và hào khí Tây Sơn",
+                                            phát huy truyền thống đoàn kết, chủ động, sáng tạo, sớm hiện thực hóa
+                                            mục tiêu đến năm 2030 trở thành tỉnh phát triển thuộc nhóm dẫn đầu vùng
+                                            Bắc Trung Bộ và duyên hải Trung Bộ, trung tâm lớn của cả nước về phát
+                                            triển kinh tế biển, trọng điểm du lịch quốc gia và quốc tế.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-5 mt-3 lg:!mt-0">
+                                    <div class="flex gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="mt-3 pb-4 border-b">
+                            <div class="box-widget-title">
+                                <a href="/"
+                                    class="hover:!text-red-800 transition relative text-red-800 uppercase text-sm font-medium text-white py-1 px-3 bg-sky-800">Góc
+                                    chuyên gia</a>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 col-lg-4">
+                                    <a href="/" class="hover:text-red-800">
+                                        <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/anh.jpg"
+                                            alt="" class="w-full">
+                                        <h4 class="font-medium mt-2 text-[1.05rem]">Điện Biên, Lai Châu - mùa xuân đầu
+                                            tiên</h4>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-lg-4 mt-3 lg:mt-0">
+                                    <a href="/" class="hover:text-red-800">
+                                        <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/anh.jpg"
+                                            alt="">
+                                        <h4 class="font-medium mt-2 text-[1.05rem]">Điện Biên, Lai Châu - mùa xuân đầu
+                                            tiên</h4>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-lg-4 mt-3 lg:mt-0">
+                                    <a href="/" class="hover:text-red-800">
+                                        <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/anh.jpg"
+                                            alt="">
+                                        <h4 class="font-medium mt-2 text-[1.05rem]">Điện Biên, Lai Châu - mùa xuân đầu
+                                            tiên</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="mt-3 pb-4 border-b">
+                            <div class="flex justify-between items-center text-red-800 border-b">
+                                <div class="flex">
+                                    <div class="flex px-3 bg-slate-100">
+                                        <div class="uppercase font-medium py-1.5 text-sm border-b-[3px] border-sky-800">
+                                            chính
+                                            trị</div>
+                                    </div>
+                                    <div class="arrow-right_box-news">
+                                    </div>
+                                </div>
+                                <ul class="hidden lg:block text-sm">
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Sự kiện nổi bật</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Thời sự Quốc hội</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Bảo vệ nền tảng tư tưởng Đảng</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Theo dòng sự kiến</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 col-lg-7">
+                                    <div>
+                                        <a href="/" class="hover:text-red-800">
+                                            <img src="https://img.daibieunhandan.vn/resize/600x600/Files/Images/2024/03/04/CTQH-phat-bieu1-1709534002346.JPG"
+                                                alt="">
+                                            <h4 class="text-[1.1rem] font-medium mt-2">Chủ tịch Quốc hội Vương Đình
+                                                Huệ:
+                                                Nêu cao
+                                                &quot;tinh
+                                                thần, hào khí
+                                                Tây Sơn&quot;, sớm đưa Bình Định thành tỉnh phát triển nhóm dẫn đầu
+                                                vùng Bắc Trung Bộ và duyên hải Trung Bộ</h4>
+                                        </a>
+                                        <p class="mt-2 text-[0.95rem]">Chủ tịch Quốc hội Vương Đình Huệ mong Đảng
+                                            bộ, chính
+                                            quyền
+                                            và
+                                            Nhân dân tỉnh Bình Định tiếp tục nêu cao "tinh thần và hào khí Tây Sơn",
+                                            phát huy truyền thống đoàn kết, chủ động, sáng tạo, sớm hiện thực hóa
+                                            mục tiêu đến năm 2030 trở thành tỉnh phát triển thuộc nhóm dẫn đầu vùng
+                                            Bắc Trung Bộ và duyên hải Trung Bộ, trung tâm lớn của cả nước về phát
+                                            triển kinh tế biển, trọng điểm du lịch quốc gia và quốc tế.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-5 mt-3 lg:!mt-0">
+                                    <div class="flex gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="mt-3 pb-4 border-b">
+                            <div class="flex justify-between items-center text-red-800 border-b">
+                                <div class="flex">
+                                    <div class="flex px-3 bg-slate-100">
+                                        <div class="uppercase font-medium py-1.5 text-sm border-b-[3px] border-sky-800">
+                                            chính
+                                            trị</div>
+                                    </div>
+                                    <div class="arrow-right_box-news">
+                                    </div>
+                                </div>
+                                <ul class="hidden lg:block text-sm">
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Sự kiện nổi bật</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Thời sự Quốc hội</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Bảo vệ nền tảng tư tưởng Đảng</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Theo dòng sự kiến</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 col-lg-7">
+                                    <div>
+                                        <a href="/" class="hover:text-red-800">
+                                            <img src="https://img.daibieunhandan.vn/resize/600x600/Files/Images/2024/03/04/CTQH-phat-bieu1-1709534002346.JPG"
+                                                alt="">
+                                            <h4 class="text-[1.1rem] font-medium mt-2">Chủ tịch Quốc hội Vương Đình
+                                                Huệ:
+                                                Nêu cao
+                                                &quot;tinh
+                                                thần, hào khí
+                                                Tây Sơn&quot;, sớm đưa Bình Định thành tỉnh phát triển nhóm dẫn đầu
+                                                vùng Bắc Trung Bộ và duyên hải Trung Bộ</h4>
+                                        </a>
+                                        <p class="mt-2 text-[0.95rem]">Chủ tịch Quốc hội Vương Đình Huệ mong Đảng
+                                            bộ, chính
+                                            quyền
+                                            và
+                                            Nhân dân tỉnh Bình Định tiếp tục nêu cao "tinh thần và hào khí Tây Sơn",
+                                            phát huy truyền thống đoàn kết, chủ động, sáng tạo, sớm hiện thực hóa
+                                            mục tiêu đến năm 2030 trở thành tỉnh phát triển thuộc nhóm dẫn đầu vùng
+                                            Bắc Trung Bộ và duyên hải Trung Bộ, trung tâm lớn của cả nước về phát
+                                            triển kinh tế biển, trọng điểm du lịch quốc gia và quốc tế.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-5 mt-3 lg:!mt-0">
+                                    <div class="flex gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="mt-3 pb-4 border-b">
+                            <div class="flex justify-between items-center text-red-800 border-b">
+                                <div class="flex">
+                                    <div class="flex px-3 bg-slate-100">
+                                        <div class="uppercase font-medium py-1.5 text-sm border-b-[3px] border-sky-800">
+                                            chính
+                                            trị</div>
+                                    </div>
+                                    <div class="arrow-right_box-news">
+                                    </div>
+                                </div>
+                                <ul class="hidden lg:block text-sm">
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Sự kiện nổi bật</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Thời sự Quốc hội</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Bảo vệ nền tảng tư tưởng Đảng</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Theo dòng sự kiến</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 col-lg-7">
+                                    <div>
+                                        <a href="/" class="hover:text-red-800">
+                                            <img src="https://img.daibieunhandan.vn/resize/600x600/Files/Images/2024/03/04/CTQH-phat-bieu1-1709534002346.JPG"
+                                                alt="">
+                                            <h4 class="text-[1.1rem] font-medium mt-2">Chủ tịch Quốc hội Vương Đình
+                                                Huệ:
+                                                Nêu cao
+                                                &quot;tinh
+                                                thần, hào khí
+                                                Tây Sơn&quot;, sớm đưa Bình Định thành tỉnh phát triển nhóm dẫn đầu
+                                                vùng Bắc Trung Bộ và duyên hải Trung Bộ</h4>
+                                        </a>
+                                        <p class="mt-2 text-[0.95rem]">Chủ tịch Quốc hội Vương Đình Huệ mong Đảng
+                                            bộ, chính
+                                            quyền
+                                            và
+                                            Nhân dân tỉnh Bình Định tiếp tục nêu cao "tinh thần và hào khí Tây Sơn",
+                                            phát huy truyền thống đoàn kết, chủ động, sáng tạo, sớm hiện thực hóa
+                                            mục tiêu đến năm 2030 trở thành tỉnh phát triển thuộc nhóm dẫn đầu vùng
+                                            Bắc Trung Bộ và duyên hải Trung Bộ, trung tâm lớn của cả nước về phát
+                                            triển kinh tế biển, trọng điểm du lịch quốc gia và quốc tế.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-5 mt-3 lg:!mt-0">
+                                    <div class="flex gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="mt-3 pb-4 border-b">
+                            <div class="flex justify-between items-center text-red-800 border-b">
+                                <div class="flex">
+                                    <div class="flex px-3 bg-slate-100">
+                                        <div class="uppercase font-medium py-1.5 text-sm border-b-[3px] border-sky-800">
+                                            chính
+                                            trị</div>
+                                    </div>
+                                    <div class="arrow-right_box-news">
+                                    </div>
+                                </div>
+                                <ul class="hidden lg:block text-sm">
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Sự kiện nổi bật</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Thời sự Quốc hội</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Bảo vệ nền tảng tư tưởng Đảng</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Theo dòng sự kiến</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 col-lg-7">
+                                    <div>
+                                        <a href="/" class="hover:text-red-800">
+                                            <img src="https://img.daibieunhandan.vn/resize/600x600/Files/Images/2024/03/04/CTQH-phat-bieu1-1709534002346.JPG"
+                                                alt="">
+                                            <h4 class="text-[1.1rem] font-medium mt-2">Chủ tịch Quốc hội Vương Đình
+                                                Huệ:
+                                                Nêu cao
+                                                &quot;tinh
+                                                thần, hào khí
+                                                Tây Sơn&quot;, sớm đưa Bình Định thành tỉnh phát triển nhóm dẫn đầu
+                                                vùng Bắc Trung Bộ và duyên hải Trung Bộ</h4>
+                                        </a>
+                                        <p class="mt-2 text-[0.95rem]">Chủ tịch Quốc hội Vương Đình Huệ mong Đảng
+                                            bộ, chính
+                                            quyền
+                                            và
+                                            Nhân dân tỉnh Bình Định tiếp tục nêu cao "tinh thần và hào khí Tây Sơn",
+                                            phát huy truyền thống đoàn kết, chủ động, sáng tạo, sớm hiện thực hóa
+                                            mục tiêu đến năm 2030 trở thành tỉnh phát triển thuộc nhóm dẫn đầu vùng
+                                            Bắc Trung Bộ và duyên hải Trung Bộ, trung tâm lớn của cả nước về phát
+                                            triển kinh tế biển, trọng điểm du lịch quốc gia và quốc tế.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-5 mt-3 lg:!mt-0">
+                                    <div class="flex gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="mt-3 pb-4 border-b">
+                            <div class="box-widget-title">
+                                <a href="/"
+                                    class="hover:!text-red-800 transition relative text-red-800 uppercase text-sm font-medium text-white py-1 px-3 bg-sky-800">Góc
+                                    chuyên gia</a>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 col-lg-4">
+                                    <a href="/" class="hover:text-red-800">
+                                        <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/anh.jpg"
+                                            alt="" class="w-full">
+                                        <h4 class="font-medium mt-2 text-[1.05rem]">Điện Biên, Lai Châu - mùa xuân đầu
+                                            tiên</h4>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-lg-4 mt-3 lg:mt-0">
+                                    <a href="/" class="hover:text-red-800">
+                                        <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/anh.jpg"
+                                            alt="">
+                                        <h4 class="font-medium mt-2 text-[1.05rem]">Điện Biên, Lai Châu - mùa xuân đầu
+                                            tiên</h4>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-lg-4 mt-3 lg:mt-0">
+                                    <a href="/" class="hover:text-red-800">
+                                        <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/anh.jpg"
+                                            alt="">
+                                        <h4 class="font-medium mt-2 text-[1.05rem]">Điện Biên, Lai Châu - mùa xuân đầu
+                                            tiên</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="mt-3 pb-4 border-b">
+                            <div class="flex justify-between items-center text-red-800 border-b">
+                                <div class="flex">
+                                    <div class="flex px-3 bg-slate-100">
+                                        <div class="uppercase font-medium py-1.5 text-sm border-b-[3px] border-sky-800">
+                                            chính
+                                            trị</div>
+                                    </div>
+                                    <div class="arrow-right_box-news">
+                                    </div>
+                                </div>
+                                <ul class="hidden lg:block text-sm">
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Sự kiện nổi bật</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Thời sự Quốc hội</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Bảo vệ nền tảng tư tưởng Đảng</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Theo dòng sự kiến</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 col-lg-7">
+                                    <div>
+                                        <a href="/" class="hover:text-red-800">
+                                            <img src="https://img.daibieunhandan.vn/resize/600x600/Files/Images/2024/03/04/CTQH-phat-bieu1-1709534002346.JPG"
+                                                alt="">
+                                            <h4 class="text-[1.1rem] font-medium mt-2">Chủ tịch Quốc hội Vương Đình
+                                                Huệ:
+                                                Nêu cao
+                                                &quot;tinh
+                                                thần, hào khí
+                                                Tây Sơn&quot;, sớm đưa Bình Định thành tỉnh phát triển nhóm dẫn đầu
+                                                vùng Bắc Trung Bộ và duyên hải Trung Bộ</h4>
+                                        </a>
+                                        <p class="mt-2 text-[0.95rem]">Chủ tịch Quốc hội Vương Đình Huệ mong Đảng
+                                            bộ, chính
+                                            quyền
+                                            và
+                                            Nhân dân tỉnh Bình Định tiếp tục nêu cao "tinh thần và hào khí Tây Sơn",
+                                            phát huy truyền thống đoàn kết, chủ động, sáng tạo, sớm hiện thực hóa
+                                            mục tiêu đến năm 2030 trở thành tỉnh phát triển thuộc nhóm dẫn đầu vùng
+                                            Bắc Trung Bộ và duyên hải Trung Bộ, trung tâm lớn của cả nước về phát
+                                            triển kinh tế biển, trọng điểm du lịch quốc gia và quốc tế.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-5 mt-3 lg:!mt-0">
+                                    <div class="flex gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="mt-3 pb-4 border-b">
+                            <div class="flex justify-between items-center text-red-800 border-b">
+                                <div class="flex">
+                                    <div class="flex px-3 bg-slate-100">
+                                        <div class="uppercase font-medium py-1.5 text-sm border-b-[3px] border-sky-800">
+                                            chính
+                                            trị</div>
+                                    </div>
+                                    <div class="arrow-right_box-news">
+                                    </div>
+                                </div>
+                                <ul class="hidden lg:block text-sm">
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Sự kiện nổi bật</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Thời sự Quốc hội</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Bảo vệ nền tảng tư tưởng Đảng</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Theo dòng sự kiến</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 col-lg-7">
+                                    <div>
+                                        <a href="/" class="hover:text-red-800">
+                                            <img src="https://img.daibieunhandan.vn/resize/600x600/Files/Images/2024/03/04/CTQH-phat-bieu1-1709534002346.JPG"
+                                                alt="">
+                                            <h4 class="text-[1.1rem] font-medium mt-2">Chủ tịch Quốc hội Vương Đình
+                                                Huệ:
+                                                Nêu cao
+                                                &quot;tinh
+                                                thần, hào khí
+                                                Tây Sơn&quot;, sớm đưa Bình Định thành tỉnh phát triển nhóm dẫn đầu
+                                                vùng Bắc Trung Bộ và duyên hải Trung Bộ</h4>
+                                        </a>
+                                        <p class="mt-2 text-[0.95rem]">Chủ tịch Quốc hội Vương Đình Huệ mong Đảng
+                                            bộ, chính
+                                            quyền
+                                            và
+                                            Nhân dân tỉnh Bình Định tiếp tục nêu cao "tinh thần và hào khí Tây Sơn",
+                                            phát huy truyền thống đoàn kết, chủ động, sáng tạo, sớm hiện thực hóa
+                                            mục tiêu đến năm 2030 trở thành tỉnh phát triển thuộc nhóm dẫn đầu vùng
+                                            Bắc Trung Bộ và duyên hải Trung Bộ, trung tâm lớn của cả nước về phát
+                                            triển kinh tế biển, trọng điểm du lịch quốc gia và quốc tế.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-5 mt-3 lg:!mt-0">
+                                    <div class="flex gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="mt-3 pb-4 border-b">
+                            <div class="flex justify-between items-center text-red-800 border-b">
+                                <div class="flex">
+                                    <div class="flex px-3 bg-slate-100">
+                                        <div class="uppercase font-medium py-1.5 text-sm border-b-[3px] border-sky-800">
+                                            chính
+                                            trị</div>
+                                    </div>
+                                    <div class="arrow-right_box-news">
+                                    </div>
+                                </div>
+                                <ul class="hidden lg:block text-sm">
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Sự kiện nổi bật</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Thời sự Quốc hội</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Bảo vệ nền tảng tư tưởng Đảng</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Theo dòng sự kiến</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 col-lg-7">
+                                    <div>
+                                        <a href="/" class="hover:text-red-800">
+                                            <img src="https://img.daibieunhandan.vn/resize/600x600/Files/Images/2024/03/04/CTQH-phat-bieu1-1709534002346.JPG"
+                                                alt="">
+                                            <h4 class="text-[1.1rem] font-medium mt-2">Chủ tịch Quốc hội Vương Đình
+                                                Huệ:
+                                                Nêu cao
+                                                &quot;tinh
+                                                thần, hào khí
+                                                Tây Sơn&quot;, sớm đưa Bình Định thành tỉnh phát triển nhóm dẫn đầu
+                                                vùng Bắc Trung Bộ và duyên hải Trung Bộ</h4>
+                                        </a>
+                                        <p class="mt-2 text-[0.95rem]">Chủ tịch Quốc hội Vương Đình Huệ mong Đảng
+                                            bộ, chính
+                                            quyền
+                                            và
+                                            Nhân dân tỉnh Bình Định tiếp tục nêu cao "tinh thần và hào khí Tây Sơn",
+                                            phát huy truyền thống đoàn kết, chủ động, sáng tạo, sớm hiện thực hóa
+                                            mục tiêu đến năm 2030 trở thành tỉnh phát triển thuộc nhóm dẫn đầu vùng
+                                            Bắc Trung Bộ và duyên hải Trung Bộ, trung tâm lớn của cả nước về phát
+                                            triển kinh tế biển, trọng điểm du lịch quốc gia và quốc tế.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-5 mt-3 lg:!mt-0">
+                                    <div class="flex gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="mt-3 pb-4 border-b">
+                            <div class="flex justify-between items-center text-red-800 border-b">
+                                <div class="flex">
+                                    <div class="flex px-3 bg-slate-100">
+                                        <div class="uppercase font-medium py-1.5 text-sm border-b-[3px] border-sky-800">
+                                            chính
+                                            trị</div>
+                                    </div>
+                                    <div class="arrow-right_box-news">
+                                    </div>
+                                </div>
+                                <ul class="hidden lg:block text-sm">
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Sự kiện nổi bật</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Thời sự Quốc hội</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Bảo vệ nền tảng tư tưởng Đảng</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Theo dòng sự kiến</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 col-lg-7">
+                                    <div>
+                                        <a href="/" class="hover:text-red-800">
+                                            <img src="https://img.daibieunhandan.vn/resize/600x600/Files/Images/2024/03/04/CTQH-phat-bieu1-1709534002346.JPG"
+                                                alt="">
+                                            <h4 class="text-[1.1rem] font-medium mt-2">Chủ tịch Quốc hội Vương Đình
+                                                Huệ:
+                                                Nêu cao
+                                                &quot;tinh
+                                                thần, hào khí
+                                                Tây Sơn&quot;, sớm đưa Bình Định thành tỉnh phát triển nhóm dẫn đầu
+                                                vùng Bắc Trung Bộ và duyên hải Trung Bộ</h4>
+                                        </a>
+                                        <p class="mt-2 text-[0.95rem]">Chủ tịch Quốc hội Vương Đình Huệ mong Đảng
+                                            bộ, chính
+                                            quyền
+                                            và
+                                            Nhân dân tỉnh Bình Định tiếp tục nêu cao "tinh thần và hào khí Tây Sơn",
+                                            phát huy truyền thống đoàn kết, chủ động, sáng tạo, sớm hiện thực hóa
+                                            mục tiêu đến năm 2030 trở thành tỉnh phát triển thuộc nhóm dẫn đầu vùng
+                                            Bắc Trung Bộ và duyên hải Trung Bộ, trung tâm lớn của cả nước về phát
+                                            triển kinh tế biển, trọng điểm du lịch quốc gia và quốc tế.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-5 mt-3 lg:!mt-0">
+                                    <div class="flex gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="mt-3 pb-4 border-b">
+                            <div class="flex justify-between items-center text-red-800 border-b">
+                                <div class="flex">
+                                    <div class="flex px-3 bg-slate-100">
+                                        <div class="uppercase font-medium py-1.5 text-sm border-b-[3px] border-sky-800">
+                                            chính
+                                            trị</div>
+                                    </div>
+                                    <div class="arrow-right_box-news">
+                                    </div>
+                                </div>
+                                <ul class="hidden lg:block text-sm">
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Sự kiện nổi bật</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Thời sự Quốc hội</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Bảo vệ nền tảng tư tưởng Đảng</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Theo dòng sự kiến</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 col-lg-7">
+                                    <div>
+                                        <a href="/" class="hover:text-red-800">
+                                            <img src="https://img.daibieunhandan.vn/resize/600x600/Files/Images/2024/03/04/CTQH-phat-bieu1-1709534002346.JPG"
+                                                alt="">
+                                            <h4 class="text-[1.1rem] font-medium mt-2">Chủ tịch Quốc hội Vương Đình
+                                                Huệ:
+                                                Nêu cao
+                                                &quot;tinh
+                                                thần, hào khí
+                                                Tây Sơn&quot;, sớm đưa Bình Định thành tỉnh phát triển nhóm dẫn đầu
+                                                vùng Bắc Trung Bộ và duyên hải Trung Bộ</h4>
+                                        </a>
+                                        <p class="mt-2 text-[0.95rem]">Chủ tịch Quốc hội Vương Đình Huệ mong Đảng
+                                            bộ, chính
+                                            quyền
+                                            và
+                                            Nhân dân tỉnh Bình Định tiếp tục nêu cao "tinh thần và hào khí Tây Sơn",
+                                            phát huy truyền thống đoàn kết, chủ động, sáng tạo, sớm hiện thực hóa
+                                            mục tiêu đến năm 2030 trở thành tỉnh phát triển thuộc nhóm dẫn đầu vùng
+                                            Bắc Trung Bộ và duyên hải Trung Bộ, trung tâm lớn của cả nước về phát
+                                            triển kinh tế biển, trọng điểm du lịch quốc gia và quốc tế.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-5 mt-3 lg:!mt-0">
+                                    <div class="flex gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="mt-3 hidden lg:block">
+                            <div class="row">
+                                <div class="col-6 border-r">
+                                    <a href="/">
+                                        <img src="https://img.daibieunhandan.vn/resize/800x800/Files/Images/2023/06/09/chuyenTrang-Hue-1686305768354.jpg"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="/">
+                                        <img src="https://img.daibieunhandan.vn/resize/800x800/Files/Images/2023/06/09/chuyenTrang-Hue-1686305768354.jpg"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="col-4 mt-4 border-r">
+                                    <a href="/">
+                                        <img src="https://img.daibieunhandan.vn/resize/800x800/Files/Images/2023/06/09/chuyenTrang-Hue-1686305768354.jpg"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="col-4 mt-4 border-r">
+                                    <a href="/">
+                                        <img src="https://img.daibieunhandan.vn/resize/800x800/Files/Images/2023/06/09/chuyenTrang-Hue-1686305768354.jpg"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="col-4 mt-4">
+                                    <a href="/">
+                                        <img src="https://img.daibieunhandan.vn/resize/800x800/Files/Images/2023/06/09/chuyenTrang-Hue-1686305768354.jpg"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="col-4 mt-4 border-r">
+                                    <a href="/">
+                                        <img src="https://img.daibieunhandan.vn/resize/800x800/Files/Images/2023/06/09/chuyenTrang-Hue-1686305768354.jpg"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="col-4 mt-4 border-r">
+                                    <a href="/">
+                                        <img src="https://img.daibieunhandan.vn/resize/800x800/Files/Images/2023/06/09/chuyenTrang-Hue-1686305768354.jpg"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="col-4 mt-4">
+                                    <a href="/">
+                                        <img src="https://img.daibieunhandan.vn/resize/800x800/Files/Images/2023/06/09/chuyenTrang-Hue-1686305768354.jpg"
+                                            alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="mt-3 pb-4 border-b">
+                            <div class="flex justify-between items-center text-red-800 border-b">
+                                <div class="flex">
+                                    <div class="flex px-3 bg-slate-100">
+                                        <div class="uppercase font-medium py-1.5 text-sm border-b-[3px] border-sky-800">
+                                            chính
+                                            trị</div>
+                                    </div>
+                                    <div class="arrow-right_box-news">
+                                    </div>
+                                </div>
+                                <ul class="hidden lg:block text-sm">
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Sự kiện nổi bật</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Thời sự Quốc hội</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Bảo vệ nền tảng tư tưởng Đảng</a>
+                                    </li>
+                                    <li class="inline-block border-b-2 py-2 border-sky-800 ml-8">
+                                        <a href="/" class="">Theo dòng sự kiến</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 col-lg-7">
+                                    <div>
+                                        <a href="/" class="hover:text-red-800">
+                                            <img src="https://img.daibieunhandan.vn/resize/600x600/Files/Images/2024/03/04/CTQH-phat-bieu1-1709534002346.JPG"
+                                                alt="">
+                                            <h4 class="text-[1.1rem] font-medium mt-2">Chủ tịch Quốc hội Vương Đình
+                                                Huệ:
+                                                Nêu cao
+                                                &quot;tinh
+                                                thần, hào khí
+                                                Tây Sơn&quot;, sớm đưa Bình Định thành tỉnh phát triển nhóm dẫn đầu
+                                                vùng Bắc Trung Bộ và duyên hải Trung Bộ</h4>
+                                        </a>
+                                        <p class="mt-2 text-[0.95rem]">Chủ tịch Quốc hội Vương Đình Huệ mong Đảng
+                                            bộ, chính
+                                            quyền
+                                            và
+                                            Nhân dân tỉnh Bình Định tiếp tục nêu cao "tinh thần và hào khí Tây Sơn",
+                                            phát huy truyền thống đoàn kết, chủ động, sáng tạo, sớm hiện thực hóa
+                                            mục tiêu đến năm 2030 trở thành tỉnh phát triển thuộc nhóm dẫn đầu vùng
+                                            Bắc Trung Bộ và duyên hải Trung Bộ, trung tâm lớn của cả nước về phát
+                                            triển kinh tế biển, trọng điểm du lịch quốc gia và quốc tế.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-5 mt-3 lg:!mt-0">
+                                    <div class="flex gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3 border-b">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                    <div class="flex mt-3 gap-3 pb-3">
+                                        <a href="/">
+                                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/thu-tuong-1-1709555671304.jpg"
+                                                alt="">
+                                        </a>
+                                        <a href="/" class="hover:text-red-800 font-medium">Phó Chủ tịch Quốc hội
+                                            Nguyễn Đức Hải kiểm tra tiến độ Dự án Vành đai 3 TP. Hồ Chí Minh</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-3 hidden lg:block">
+                        <div>
+                            <ul>
+                                <li
+                                    class="uppercase text-sm inline-block p-2 border-b border-sky-800 whitespace-nowrap m-0 font-medium text-red-800">
+                                    <a href="/">tin mới</a>
+                                </li>
+                                <li
+                                    class="uppercase text-sm inline-block p-2 whitespace-nowrap m-0 font-medium text-gray-400">
+                                    <a href="/">tin đọc nhiều</a>
+                                </li>
+                            </ul>
+                            <div class="px-3 bg-slate-100">
+                                <article class="py-2 border-b border-white">
+                                    <a href="/" class="hover:text-red-800 font-medium text-[1.06rem]">Ủy ban Văn hóa,
+                                        Giáo dục
+                                        làm việc với Báo
+                                        Nhân dân</a>
+                                    <p class="text-xs text-gray-400 mt-2">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>1 giờ trước</span>
+                                    </p>
+                                </article>
+                                <article class="py-2 border-b border-white">
+                                    <a href="/" class="hover:text-red-800 font-medium text-[1.06rem]">Ủy ban Văn hóa,
+                                        Giáo dục
+                                        làm việc với Báo
+                                        Nhân dân</a>
+                                    <p class="text-xs text-gray-400 mt-2">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>1 giờ trước</span>
+                                    </p>
+                                </article>
+                                <article class="py-2 border-b border-white">
+                                    <a href="/" class="hover:text-red-800 font-medium text-[1.06rem]">Ủy ban Văn hóa,
+                                        Giáo dục
+                                        làm việc với Báo
+                                        Nhân dân</a>
+                                    <p class="text-xs text-gray-400 mt-2">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>1 giờ trước</span>
+                                    </p>
+                                </article>
+                                <article class="py-2 border-b border-white">
+                                    <a href="/" class="hover:text-red-800 font-medium text-[1.06rem]">Ủy ban Văn hóa,
+                                        Giáo dục
+                                        làm việc với Báo
+                                        Nhân dân</a>
+                                    <p class="text-xs text-gray-400 mt-2">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>1 giờ trước</span>
+                                    </p>
+                                </article>
+                                <article class="py-2 border-b border-white">
+                                    <a href="/" class="hover:text-red-800 font-medium text-[1.06rem]">Ủy ban Văn hóa,
+                                        Giáo dục
+                                        làm việc với Báo
+                                        Nhân dân</a>
+                                    <p class="text-xs text-gray-400 mt-2">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>1 giờ trước</span>
+                                    </p>
+                                </article>
+                                <article class="py-2 border-b border-white">
+                                    <a href="/" class="hover:text-red-800 font-medium text-[1.06rem]">Ủy ban Văn hóa,
+                                        Giáo dục
+                                        làm việc với Báo
+                                        Nhân dân</a>
+                                    <p class="text-xs text-gray-400 mt-2">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>1 giờ trước</span>
+                                    </p>
+                                </article>
+                                <article class="py-2 border-b border-white">
+                                    <a href="/" class="hover:text-red-800 font-medium text-[1.06rem]">Ủy ban Văn hóa,
+                                        Giáo dục
+                                        làm việc với Báo
+                                        Nhân dân</a>
+                                    <p class="text-xs text-gray-400 mt-2">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>1 giờ trước</span>
+                                    </p>
+                                </article>
+                                <article class="py-2 border-b border-white">
+                                    <a href="/" class="hover:text-red-800 font-medium text-[1.06rem]">Ủy ban Văn hóa,
+                                        Giáo dục
+                                        làm việc với Báo
+                                        Nhân dân</a>
+                                    <p class="text-xs text-gray-400 mt-2">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>1 giờ trước</span>
+                                    </p>
+                                </article>
+                                <article class="py-2 border-b border-white">
+                                    <a href="/" class="hover:text-red-800 font-medium text-[1.06rem]">Ủy ban Văn hóa,
+                                        Giáo dục
+                                        làm việc với Báo
+                                        Nhân dân</a>
+                                    <p class="text-xs text-gray-400 mt-2">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>1 giờ trước</span>
+                                    </p>
+                                </article>
+                                <article class="py-2 border-b border-white">
+                                    <a href="/" class="hover:text-red-800 font-medium text-[1.06rem]">Ủy ban Văn hóa,
+                                        Giáo dục
+                                        làm việc với Báo
+                                        Nhân dân</a>
+                                    <p class="text-xs text-gray-400 mt-2">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>1 giờ trước</span>
+                                    </p>
+                                </article>
+                            </div>
+                        </div>
+
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-3 pb-4 border-b px-3 lg:px-0">
+                <div class="box-widget-title">
+                    <a href="/"
+                        class="relative text-red-800 uppercase text-sm font-medium text-white py-1 px-3 bg-sky-800">Góc
+                        chuyên gia</a>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12 col-lg-6 mt-3 lg:!mt-0">
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="/" class="hover:text-red-800">
+                                    <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/anh.jpg"
+                                        alt="">
+                                    <h4 class="font-medium mt-2 text-[1.05rem]">
+                                        <span class="bg-red-600 text-xs text-white px-1 rounded">eMagazine</span>
+                                        <span>Điện Biên, Lai Châu - mùa xuân đầu
+                                            tiên</span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="/" class="hover:text-red-800">
+                                    <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/anh.jpg"
+                                        alt="">
+                                    <h4 class="font-medium mt-2 text-[1.05rem]">
+                                        <span class="bg-red-600 text-xs text-white px-1 rounded">eMagazine</span>
+                                        <span>Điện Biên, Lai Châu - mùa xuân đầu
+                                            tiên</span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div class="col-6 mt-3 lg:!mt-9">
+                                <a href="/" class="hover:text-red-800">
+                                    <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/anh.jpg"
+                                        alt="">
+                                    <h4 class="font-medium mt-2 text-[1.05rem]">
+                                        <span class="bg-red-600 text-xs text-white px-1 rounded">eMagazine</span>
+                                        <span>Điện Biên, Lai Châu - mùa xuân đầu
+                                            tiên</span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div class="col-6 mt-3 lg:!mt-9">
+                                <a href="/" class="hover:text-red-800">
+                                    <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/anh.jpg"
+                                        alt="">
+                                    <h4 class="font-medium mt-2 text-[1.05rem]">
+                                        <span class="bg-red-600 text-xs text-white px-1 rounded">eMagazine</span>
+                                        <span>Điện Biên, Lai Châu - mùa xuân đầu
+                                            tiên</span>
+                                    </h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 order-first lg:!order-last">
+                        <a href="/" class="hover:text-red-800">
+                            <img src="https://img.daibieunhandan.vn/resize/600x600/Files/Images/2024/02/23/z5185222735992_c99c8ef689b5a580c-1708672816809.jpg"
+                                alt="">
+                            <h4 class="font-medium mt-2 text-[1.05rem]">
+                                <span class="bg-red-600 text-xs text-white px-1 rounded">eMagazine</span>
+                                Kiên định hệ quan điểm chỉ đạo mang tính nguyên
+                                tắc, kết hợp khoa học giữa nền tảng tư tưởng, mục tiêu lý tưởng, đường lối của Đảng với
+                                tinh thần không ngừng đổi mới, sáng tạo, tuân theo quy luật khách quan
+                            </h4>
+                        </a>
+                        <p class="text-[0.96rem] mt-2">
+                            <strong>Lời tòa soạn:</strong>
+                            <em>Sáng nay, 23.2, tại trụ sở Trung ương Đảng, Tổng Bí thư Nguyễn Phú Trọng - Trưởng
+                                Tiểu ban Văn kiện Đại hội XIV, đã chủ trì phiên họp đầu tiên của Tiểu ban Văn kiện
+                                Đại hội XIV của Đảng và có bài phát biểu chỉ đạo quan trọng.</em>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="px-3 lg:!px-0">
+                <div class="row">
+                    <div class="col-12 col-lg-9">
+                        <div class="row pb-4 border-b">
+                            <div class="col-12 col-sm-6 mt-3 lg:mt-0 col-lg-4">
+                                <div class="flex border-b">
+                                    <div class="px-3 bg-slate-100">
+                                        <div
+                                            class="uppercase font-medium py-1.5 text-sm text-red-800 border-b-[3px] border-sky-800">
+                                            chính
+                                            trị</div>
+                                    </div>
+                                    <div class="arrow-right_box-news">
+                                    </div>
+                                </div>
+                                <div class="mt-3">
+                                    <a href="/" class="hover:text-red-800">
+                                        <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/bao-ve-thong-tin-du-lieu-ca-nhan-1709487671144.jpg"
+                                            alt="">
+                                        <p class="font-medium mt-1 text-[1.05rem]">Đề nghị xây dựng Luật Bảo vệ dữ liệu
+                                            cá nhân</p>
+                                    </a>
+                                </div>
+                                <ul>
+                                    <li class="text-sm text-sky-800 font-medium hover:text-red-800 py-2.5 border-b">
+                                        <a href="/" class="flex items-center gap-2">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                            <p>Viettel bổ sung tính năng mua thêm băng thông cho dịch vụ FTTH</p>
+                                        </a>
+                                    </li>
+                                    <li class="text-sm text-sky-800 font-medium hover:text-red-800 py-2.5 border-b">
+                                        <a href="/" class="flex items-center gap-2">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                            <p>Viettel bổ sung tính năng mua thêm băng thông cho dịch vụ FTTH</p>
+                                        </a>
+                                    </li>
+                                    <li class="text-sm text-sky-800 font-medium hover:text-red-800 py-2.5">
+                                        <a href="/" class="flex items-center gap-2">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                            <p>Viettel bổ sung tính năng mua thêm băng thông cho dịch vụ FTTH</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-6 mt-3 lg:mt-0 col-lg-4">
+                                <div class="flex border-b">
+                                    <div class="px-3 bg-slate-100">
+                                        <div
+                                            class="uppercase font-medium py-1.5 text-sm text-red-800 border-b-[3px] border-sky-800">
+                                            chính
+                                            trị</div>
+                                    </div>
+                                    <div class="arrow-right_box-news">
+                                    </div>
+                                </div>
+                                <div class="mt-3">
+                                    <a href="/" class="hover:text-red-800">
+                                        <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/bao-ve-thong-tin-du-lieu-ca-nhan-1709487671144.jpg"
+                                            alt="">
+                                        <p class="font-medium mt-1 text-[1.05rem]">Đề nghị xây dựng Luật Bảo vệ dữ liệu
+                                            cá nhân</p>
+                                    </a>
+                                </div>
+                                <ul>
+                                    <li class="text-sm text-sky-800 font-medium hover:text-red-800 py-2.5 border-b">
+                                        <a href="/" class="flex items-center gap-2">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                            <p>Viettel bổ sung tính năng mua thêm băng thông cho dịch vụ FTTH</p>
+                                        </a>
+                                    </li>
+                                    <li class="text-sm text-sky-800 font-medium hover:text-red-800 py-2.5 border-b">
+                                        <a href="/" class="flex items-center gap-2">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                            <p>Viettel bổ sung tính năng mua thêm băng thông cho dịch vụ FTTH</p>
+                                        </a>
+                                    </li>
+                                    <li class="text-sm text-sky-800 font-medium hover:text-red-800 py-2.5">
+                                        <a href="/" class="flex items-center gap-2">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                            <p>Viettel bổ sung tính năng mua thêm băng thông cho dịch vụ FTTH</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-6 mt-3 lg:mt-0 col-lg-4">
+                                <div class="flex border-b">
+                                    <div class="px-3 bg-slate-100">
+                                        <div
+                                            class="uppercase font-medium py-1.5 text-sm text-red-800 border-b-[3px] border-sky-800">
+                                            chính
+                                            trị</div>
+                                    </div>
+                                    <div class="arrow-right_box-news">
+                                    </div>
+                                </div>
+                                <div class="mt-3">
+                                    <a href="/" class="hover:text-red-800">
+                                        <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/03/04/bao-ve-thong-tin-du-lieu-ca-nhan-1709487671144.jpg"
+                                            alt="">
+                                        <p class="font-medium mt-1 text-[1.05rem]">Đề nghị xây dựng Luật Bảo vệ dữ liệu
+                                            cá nhân</p>
+                                    </a>
+                                </div>
+                                <ul>
+                                    <li class="text-sm text-sky-800 font-medium hover:text-red-800 py-2.5 border-b">
+                                        <a href="/" class="flex items-center gap-2">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                            <p>Viettel bổ sung tính năng mua thêm băng thông cho dịch vụ FTTH</p>
+                                        </a>
+                                    </li>
+                                    <li class="text-sm text-sky-800 font-medium hover:text-red-800 py-2.5 border-b">
+                                        <a href="/" class="flex items-center gap-2">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                            <p>Viettel bổ sung tính năng mua thêm băng thông cho dịch vụ FTTH</p>
+                                        </a>
+                                    </li>
+                                    <li class="text-sm text-sky-800 font-medium hover:text-red-800 py-2.5">
+                                        <a href="/" class="flex items-center gap-2">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                            <p>Viettel bổ sung tính năng mua thêm băng thông cho dịch vụ FTTH</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 hidden lg:block">
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                        <div class="mt-4">
+                            <img src="https://img.daibieunhandan.vn/Files/Images/2022/12/12/van-Hoa-SoiDuong-1670822622100.jpg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-3 hidden lg:block">
+                <div class="row">
+                    <div class="col-6 border-r">
+                        <a href="/">
+                            <img src="https://img.daibieunhandan.vn/resize/800x800/Files/Images/2022/05/17/Ngan-hang-chinh-sach-1652782097584.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="/">
+                            <img src="https://img.daibieunhandan.vn/resize/800x800/Files/Images/2022/05/17/Ngan-hang-chinh-sach-1652782097584.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-3 px-2 lg:px-0">
+                <div class="box-widget-title">
+                    <a href="/"
+                        class="relative text-red-800 uppercase text-sm font-medium text-white py-1 px-3 bg-sky-800">
+                        ảnh</a>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12 col-lg-7 lg:pr-0">
+                        <a href="/">
+                            <img src="https://img.daibieunhandan.vn/resize/800x800/Files/Images/2024/02/10/VIE_1201-1707538005625.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="col-5 p-0 p-3 hidden bg-sky-800 lg:block">
+                        <h2 class="text-white font-medium text-2xl transition hover:!text-red-800">
+                            <a href="/">
+                                Một số hình ảnh Chủ tịch Quốc hội Vương Đình Huệ thăm, làm việc tại tỉnh Khánh Hòa
+                            </a>
+                        </h2>
+                        <p class="text-sm text-gray-400 my-6">10-02-2024</p>
+                        <p class="text-white text-gray-300">Sáng mùng 1 Tết Nguyên đán Giáp Thìn, thay vì sự ồn ào, tấp
+                            nập, sôi động
+                            là
+                            khung cảnh vắng
+                            vẻ, bình yên trên các đường phố Hà Nội. Nhịp sống Thủ đô dường như lắng lại, phố phường
+                            dường như được "nghỉ ngơi" sau một năm tất bật, bận rộn...</p>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-3 pb-4 px-2 lg:px-0">
+                <div class="box-widget-title">
+                    <a href="/"
+                        class="relative text-red-800 uppercase text-sm font-medium text-white py-1 px-3 bg-sky-800">Góc
+                        chuyên gia</a>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12 col-lg">
+                        <a href="/" class="hover:text-red-800">
+                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/02/29/Ban-sao-cua-DN-10-thang-1709195583266.png"
+                                alt="" class="w-full">
+                            <h4 class="font-medium mt-2 text-[1.05rem]">
+                                <span class="bg-red-600 text-xs text-white px-1 rounded">eMagazine</span>
+                                <span>Gần 41,1 nghìn doanh nghiệp thành lập mới và quay trở lại hoạt động</span>
+                            </h4>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg mt-3 lg:!mt-0">
+                        <a href="/" class="hover:text-red-800">
+                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/02/29/Ban-sao-cua-DN-10-thang-1709195583266.png"
+                                alt="">
+                            <h4 class="font-medium mt-2 text-[1.05rem]">
+                                <span class="bg-red-600 text-xs text-white px-1 rounded">eMagazine</span>
+                                <span>Gần 41,1 nghìn doanh nghiệp thành lập mới và quay trở lại hoạt động</span>
+                            </h4>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg mt-3 lg:!mt-0">
+                        <a href="/" class="hover:text-red-800">
+                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/02/29/Ban-sao-cua-DN-10-thang-1709195583266.png"
+                                alt="">
+                            <h4 class="font-medium mt-2 text-[1.05rem]">
+                                <span class="bg-red-600 text-xs text-white px-1 rounded">eMagazine</span>
+                                <span>Gần 41,1 nghìn doanh nghiệp thành lập mới và quay trở lại hoạt động</span>
+                            </h4>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg mt-3 lg:!mt-0">
+                        <a href="/" class="hover:text-red-800">
+                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/02/29/Ban-sao-cua-DN-10-thang-1709195583266.png"
+                                alt="">
+                            <h4 class="font-medium mt-2 text-[1.05rem]">
+                                <span class="bg-red-600 text-xs text-white px-1 rounded">eMagazine</span>
+                                <span>Gần 41,1 nghìn doanh nghiệp thành lập mới và quay trở lại hoạt động</span>
+                            </h4>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg mt-3 lg:!mt-0">
+                        <a href="/" class="hover:text-red-800">
+                            <img src="https://img.daibieunhandan.vn/resize/520x520/Files/Images/2024/02/29/Ban-sao-cua-DN-10-thang-1709195583266.png"
+                                alt="">
+                            <h4 class="font-medium mt-2 text-[1.05rem]">
+                                <span class="bg-red-600 text-xs text-white px-1 rounded">eMagazine</span>
+                                <span>Gần 41,1 nghìn doanh nghiệp thành lập mới và quay trở lại hoạt động</span>
+                            </h4>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- END SECTION BODY -->
+    </main>
+    <!-- END BODY -->
+
+    <!-- BACKGROUND -->
+    <div class="fixed top-[-10%] sm:top-[-15%] lg:top-[-60%] bottom-0 right-[-12%] left-[-12%] z-[-1] bg-[#f3f1f2]">
+        <img src="https://img.daibieunhandan.vn/Content/images/trongdong.jpg" alt="">
+    </div>
+    <!-- END BACKGROUND -->
+
+    <!-- OVERLAY -->
+    <div class="overlay hidden fixed inset-0 bg-[#00000087] backdrop-blur-sm z-2"></div>
+    <!-- END BACKGROUND -->
+
+    <!-- MENU MOBILE -->
+    <div
+        class="menu-mobile hidden fixed overflow-auto top-0 bottom-0 left-0 right-[25%] p-3 bg-amber-100 z-3 bg-trong-dong bg-no-repeat bg-cover bg-center">
+        <div class="flex items-center gap-2">
+            <div class="flex gap-1 border rounded-3xl items-center p-2 !border-sky-800 flex-1">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" class="bg-transparent outline-none border-none" placeholder="Tìm kiếm...">
+            </div>
+            <i class="fa-solid fa-x x-menu-mobile"></i>
+        </div>
+        <div class="font-medium text-sm bg-slate-200 p-2 mt-3">
+            <a href="/">English</a>
+            <span class="px-1">-</span>
+            <a href="/">Video</a>
+            <span class="px-1">-</span>
+            <a href="/">Báo In</a>
+        </div>
+        <div class="row">
+            <div class="col-12 py-3 border-b border-gray-300">
+                <a href="/" class="uppercase text-red-700 font-bold">trang chủ</a>
+            </div>
+            <div class="col-12 py-3 border-b border-gray-300">
+                <a href="/" class="uppercase font-bold hover:text-sky-700">chính trị</a>
+                <ul class="text-[0.95rem] mt-1 list-square ml-5">
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 py-3 border-b border-gray-300">
+                <a href="/" class="uppercase font-bold hover:text-sky-700">chính trị</a>
+                <ul class="text-[0.95rem] mt-1 list-square ml-5">
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 py-3 border-b border-gray-300">
+                <a href="/" class="uppercase font-bold hover:text-sky-700">chính trị</a>
+                <ul class="text-[0.95rem] mt-1 list-square ml-5">
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 py-3 border-b border-gray-300">
+                <a href="/" class="uppercase font-bold hover:text-sky-700">chính trị</a>
+                <ul class="text-[0.95rem] mt-1 list-square ml-5">
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 py-3 border-b border-gray-300">
+                <a href="/" class="uppercase font-bold hover:text-sky-700">chính trị</a>
+                <ul class="text-[0.95rem] mt-1 list-square ml-5">
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 py-3 border-b border-gray-300">
+                <a href="/" class="uppercase font-bold hover:text-sky-700">chính trị</a>
+                <ul class="text-[0.95rem] mt-1 list-square ml-5">
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 py-3 border-b border-gray-300">
+                <a href="/" class="uppercase font-bold hover:text-sky-700">chính trị</a>
+                <ul class="text-[0.95rem] mt-1 list-square ml-5">
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                    <li class="py-2 hover:text-red-700">
+                        <a href="/">Sự kiện nổi bật</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- END MENU MOBILE -->
+
+    <!-- FOOTER -->
+    <footer class="bg-sky-800">
+        <div class="max-w-[1250px] mx-auto text-white py-4 px-4 lg:px-0">
+            <div class="grid lg:grid-flow-col">
+                <div class="col-span-1">
+                    <div class="bg-white w-[146px] h-[59px]">
+                        <img src="https://img.daibieunhandan.vn/resize/600x600/Files/Images/2022/05/10/logofoot-1652119114878.png"
+                            alt="">
+                    </div>
+                    <p class="text-sm mt-3">Cơ quan chủ quản: Văn phòng Quốc hội</p>
+                </div>
+                <div class="col-span-5 mt-5 lg:!mt-0">
+                    <p class="font-bold">
+                        <span>Tổng Biên tập:</span>
+                        <span>PHẠM THỊ THANH HUYỀN</span>
+                    </p>
+                    <div class="text-sm flex flex-col gap-1">
+                        <p>
+                            <span>Phó Tổng Biên tập:</span>
+                            <span>LÊ THANH KIM - NGUYỄN THỊ MINH HẰNG</span>
+                        </p>
+                        <p>
+                            <span>Trụ sở tòa soạn:</span>
+                            <span>35 Ngô Quyền, Hoàn Kiếm, Hà Nội</span>
+                        </p>
+                        <p>
+                            <span>Điện thoại:</span>
+                            <span>0986.231204 - 0904.412489.</span>
+                        </p>
+                        <p>
+                            <span>Fax:</span>
+                            <span> (84) 08046659.</span>
+                        </p>
+                        <p>
+                            <span>Email:</span>
+                            <span>toasoan@dbnd.vn, baodientu@dbnd.vn</span>
+                        </p>
+                        <p>Giấp phép số 349/GP_BTTTT Cấp ngày 22/09/2023.
+                        </p>
+                        <p>©2022. Bản quyền thuộc về Báo Đại biểu Nhân dân.
+                        </p>
+                        <p>Cấm sao chép dưới mọi hình thức nếu không có sự chấp thuận bằng văn bản.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-span-1 mt-5">
+                    <p>Liên hệ quảng cáo:</p>
+                    <p>- 0986.231204</p>
+                    <p>- 0912.018525</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
