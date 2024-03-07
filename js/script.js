@@ -20,11 +20,21 @@ function hiddenMenuMobile() {
 
 document.onscroll = () => {
     if (window.scrollY > header.offsetHeight + navHeader.offsetHeight) {
+        const widthBodyContentElement = document.querySelector('.body_content').offsetWidth
+        const widthDocument = document.body.offsetWidth
+        const distance = (widthDocument - widthBodyContentElement) / 2
+
+        if (widthDocument >= 1024) {
+            navHeader.style.right = `${distance}px`
+            navHeader.style.left = `${distance}px`
+        }
         horizonBar.classList.add('hidden')
         horizonBar.classList.remove('block')
         navHeader.classList.add('fixedElement')
     } else {
         navHeader.classList.remove('fixedElement')
+        navHeader.style.right = '0'
+        navHeader.style.left = '0'
     }
 };
 
@@ -55,3 +65,29 @@ menuIconMobile.onclick = function () {
 
 xMenuMobile.onclick = hiddenMenuMobile
 overlay.onclick = hiddenMenuMobile
+
+$(document).ready(function () {
+    $('.slider-container').slick({
+        dots: false,
+        prevArrow: false,
+        nextArrow: false,
+        speed: 1000,
+        nextArrow: document.querySelector('.btn-slick.next'),
+        prevArrow: document.querySelector('.btn-slick.prev'),
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: "unslick"
+            }
+        ]
+    });
+
+    $('.container_slide-image').slick({
+        dots: false,
+        prevArrow: false,
+        nextArrow: false,
+        speed: 1300,
+        nextArrow: document.querySelector('.btn-slick_img-slide.next'),
+        prevArrow: document.querySelector('.btn-slick_img-slide.prev'),
+    });
+});

@@ -1,3 +1,7 @@
+body {
+  font-family: "Source Serif 4", serif;
+}
+
 @keyframes toBottom {
   from {
     opacity: 0;
@@ -126,4 +130,76 @@
   left: 0;
   right: 0;
   animation: toBottom 0.5s ease;
+}
+
+.btn-slick {
+  width: 50px;
+  height: 55px;
+  background-color: rgba(224, 27, 33, 0.35);
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 30px;
+}
+
+.btn-slick.prev {
+  transform: translateX(-50%);
+  justify-content: end;
+  padding-right: 4px;
+}
+
+.btn-slick.next {
+  transform: translateX(50%);
+  justify-content: start;
+  padding-left: 4px;
+}
+
+.btn-slick_img-slide {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(224, 27, 33, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  opacity: 0.6;
+}
+
+.header-nav ul {
+  overflow-y: hidden;
+}
+
+.header-nav ul::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+
+.header-nav ul::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+  height: 2px;
+}
+
+.header-nav ul::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border: 2px solid #555555;
+}
+
+.list-topic::-webkit-scrollbar-track {
+  -webkit-box-shadow: transparent;
+  background-color: transparent;
+}
+
+.list-topic::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+  height: 2px;
+}
+
+.list-topic::-webkit-scrollbar-thumb {
+  background-color: transparent;
 }
